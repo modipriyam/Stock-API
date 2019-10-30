@@ -1,7 +1,7 @@
-##Name : assignment-7-modipriyam
+## Name : assignment-7-modipriyam
 assignment-7-modipriyam created by GitHub Classroom
 
-##Desciption : 
+## Desciption : 
 The assignment is about creating the a page using HTML where user can
 get the details for the Stocks. On the Starting of the Page there is textbox which takes
 the User input as in Stock Name. After Clicking on the Submit button it will display the Stock Details for those stocks.
