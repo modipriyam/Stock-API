@@ -1,0 +1,674 @@
+@import "variables";
+.row1{
+  margin-left: 6%;
+  display: table; /*Represents the type of row, as it need to contain three block, it is set as table*/
+  padding-right: 40px; /*Adding Padding to from the right*/
+  width: 100%; /*Width of the screen to by this tag*/
+  height: 300px; /*Height of the content*/
+  position: relative; /*Position of the tag*/
+
+}
+
+.block1{
+  display: table-cell; /*Represents the type of row, as it need to contain three block, it is set as table-row*/
+  padding: .5em; /*Adding padding on all the size*/
+  margin-right: 3%; /*Adding margin to the right*/
+  float: left; /*It set the content to float or sticks to the left*/
+  width:28%; /*Set the content to be displayed in the specified width*/
+  height: 95%; /*Sets the height of content*/
+  border-radius: 7px; /*Convert the edges of box to circular*/
+  margin-top: 1%; /*Adds margin to the top*/
+}
+.block2:hover{
+  cursor: pointer; /*Changing the type of cursor on hover*/
+  background-color: ghostwhite; /*Setting the background color on hover*/
+}
+.row2{
+  display: table;
+  padding-right: 40px;
+  width: 100%;
+  height: 300px;
+  position: relative; /*Sets the position of the content in the tag to appears*/
+}
+
+.block2{
+  display: table-cell;
+  border-style: solid;
+  border-width: 2px;
+  border-color: darkcyan;
+  padding: .5em;
+  margin-right: 3%;
+  margin-top: 2%;
+  float: left;
+  width:28%;
+  height: 95%;
+  border-radius: 7px;
+}
+
+.block1 span {
+  position: absolute;
+  bottom: 20px; /*Adding bottom margin of 20px to set the bookmark icon*/
+  color: darkcyan;
+}
+
+.block2 span {
+  position: absolute;
+  bottom: 5px;
+  color: $brand-color;
+}
+
+
+.posts{
+  font-size:15px ;
+  margin-right: 3%;
+  text-decoration: none;
+  color: darkgrey;
+}
+.phoneinformations{
+  font-size:10px ;
+  margin-right: 6%;
+  text-decoration: none;
+  color: darkgrey;
+  font-weight: bold;
+}
+
+.mainimage{
+  background: url("mainimage2.jpg");
+  height: 800px;
+}
+
+.mainimage2{
+  background: url("mainimage2.jpg");
+  height: 800px;
+}
+
+.box .imgmaintext {
+  position: absolute;
+  text-align: left;
+  top: 35%; /* Adjust this value to move the positioned div up and down */
+  color: #fff;
+  margin-left: 7%;
+  font-size: 50px;
+  font-family: Courier;
+  color: #40537E;
+  font-weight: bold;
+
+}
+.box .imgsubtest{
+  position: absolute;
+  text-align: left;
+  color: #fff;
+  top:58%;
+  font-weight: bold;
+  margin-left: 7%;
+  font-size: 20px;
+  font-family: Courier;
+  color: #40537E;
+}
+.box #b2{
+  position: absolute;
+  text-align: left;
+  top:70%;
+  margin-left: 7%;
+  border-radius: 20px;
+}
+
+.container3 #b3{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 40px;
+  padding: 14px 70px;
+
+}
+
+.servicebutton{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+}
+
+.row11{
+
+}
+.block11{
+  display: table-cell; /*Represents the type of row, as it need to contain three block, it is set as table-row*/
+  padding: .5em; /*Adding padding on all the size*/
+  margin-right: 3%; /*Adding margin to the right*/
+  float: left; /*It set the content to float or sticks to the left*/
+  width:20%; /*Set the content to be displayed in the specified width*/
+  height: 95%; /*Sets the height of content*/
+  border-radius: 7px; /*Convert the edges of box to circular*/
+  margin-top: 1%; /*Adds margin to the top*/
+}
+
+.container3, .container3-3 {
+  margin-top: 100px;
+  background-color: lightgray;
+  margin-bottom: 50px;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+
+}
+
+.container2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+
+}
+
+.container5{
+  display: table;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+
+}
+
+.block111{
+  display: table-cell; /*Represents the type of row, as it need to contain three block, it is set as table-row*/
+  padding: .5em; /*Adding padding on all the size*/
+  margin-right: 3%; /*Adding margin to the right*/
+  float: left; /*It set the content to float or sticks to the left*/
+  width:28%; /*Set the content to be displayed in the specified width*/
+  height: 500px; /*Sets the height of content*/
+  border-radius: 7px; /*Convert the edges of box to circular*/
+  margin-top: 1%; /*Adds margin to the top*/
+}
+
+.containerlast{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+}
+
+.block13{
+  display: table-cell; /*Represents the type of row, as it need to contain three block, it is set as table-row*/
+  padding: .5em; /*Adding padding on all the size*/
+  margin-right: 3%; /*Adding margin to the right*/
+  float: left; /*It set the content to float or sticks to the left*/
+  width:15%; /*Set the content to be displayed in the specified width*/
+  height: 200px; /*Sets the height of content*/
+  border-radius: 7px; /*Convert the edges of box to circular*/
+  margin-top: 1%; /*Adds margin to the top*/
+  color: grey;
+  font-family : Georgia;
+  color:balck;
+
+}
+.block14{
+  display: table-cell; /*Represents the type of row, as it need to contain three block, it is set as table-row*/
+  padding: .5em; /*Adding padding on all the size*/
+  margin-right: 3%; /*Adding margin to the right*/
+  float: left; /*It set the content to float or sticks to the left*/
+  width:30%; /*Set the content to be displayed in the specified width*/
+  height: 200px; /*Sets the height of content*/
+  border-radius: 7px; /*Convert the edges of box to circular*/
+  margin-top: 1%; /*Adds margin to the top*/
+  color: grey;
+  font-family : Georgia;
+}
+
+.box .imgsubtest{
+  position: absolute;
+  text-align: left;
+  color: #fff;
+  top:58%;
+  font-weight: bold;
+  margin-left: 7%;
+  font-size: 20px;
+  font-family: Courier;
+  color: #40537E;
+}
+
+.imagetext1{
+  position: absolute;
+  text-align: left;
+  top: 43%; /* Adjust this value to move the positioned div up and down */
+  color: #fff;
+  margin-left: 7%;
+  font-size: 50px;
+  font-family: Courier;
+  color: #40537E;
+  font-weight: bold;
+  height: 600px;
+  width:600px;
+  border-style: solid;
+  background-color: white;
+}
+
+.bfont{
+  color: black;
+}
+
+.serivesimg1{
+  border-radius: 4px;
+  width  : 330px;
+  padding-bottom : 10px;
+  height: 330px;
+  background: url("img1.jpg");
+}
+
+.aboutcompanyimg{
+  border-radius: 4px;
+  width  : 330px;
+  padding-bottom : 10px;
+  height: 330px;
+  background: url("im2.jpg");
+}
+
+
+.serivesimg3{
+  border-radius: 4px;
+  width  : 330px;
+  padding-bottom : 10px;
+  height: 330px;
+  background: url("img3.jpg");
+}
+.serivesimg4{
+  border-radius: 4px;
+  width  : 330px;
+  padding-bottom : 10px;
+  height: 330px;
+  background: url("img4.jpg");
+}
+
+.serivesimg5{
+  border-radius: 4px;
+  width  : 330px;
+  padding-bottom : 10px;
+  height: 330px;
+  background: url("img5.jpg");
+}
+
+.serivesimg6{
+  border-radius: 4px;
+  width  : 330px;
+  padding-bottom : 10px;
+  height: 330px;
+  background: url("img6.jpg");
+}
+
+.serivesimg7{
+  border-radius: 4px;
+  width  : 330px;
+  padding-bottom : 10px;
+  height: 330px;
+  background: url("img7.jpg");
+}
+
+.serivesimg8{
+  border-radius: 4px;
+  width  : 330px;
+  padding-bottom : 10px;
+  height: 330px;
+  background: url("img8.jpg");
+}
+
+
+
+.form{
+  padding: 10px;
+  width:80%;
+  margin-left: 10%;
+  margin-top: 1%;
+  font-size: 15px;
+  background-color: antiquewhite;
+  border: none;
+  font-style: italic;
+  font-family: "Segoe UI";
+}
+
+#b4{
+  width: 80%;
+  margin-left: 10%;
+}
+
+.formtext{
+  padding: .5em; /*Adding padding on all the size*/
+  color: grey;
+  font-family : Georgia;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pmain{
+  display : flex;
+}
+
+.projects{
+  font-size: 40px;
+  text-align: center;
+  padding-top : 20px;
+  padding-bottom: 20px;
+}
+
+.container4 {
+  margin-top: 100px;
+  background-color: lightgray;
+  margin-bottom: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 250px;
+}
+.gridtext{
+  color: white;
+}
+#b5{
+  margin-left: 40px;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.gbutton{
+  color: grey;
+  font-size: 15px;
+}
+
+.container5-2{
+  margin-top: 100px;
+  background-color: lightgray;
+  margin-bottom: 50px;
+  display: grid;
+  justify-content: center;
+}
+
+.row521{
+  padding-right: 40px; /*Adding Padding to from the right*/
+  width: 100%; /*Width of the screen to by this tag*/
+  display: grid;
+  justify-content: center;
+}
+.block521{
+  padding: .5em; /*Adding padding on all the size*/
+  border-radius: 7px; /*Convert the edges of box to circular*/
+  margin-top: 1%; /*Adds margin to the top*/
+  align-items: center;
+  justify-content: center;
+}
+
+.timg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width : 330px;
+  height: 330px;
+  margin-bottom: 40px;
+  background: url("testimonial.jpg");
+}
+
+.tblocktext{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.tblocktext2{
+  margin-top: 40px;
+  background-color: grey;
+  color: white;
+  width:max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding : 10px;
+  font-size: 20px;
+  font-style: italic;
+
+}
+
+.lbimg3{
+  margin-left : auto;
+  margin-right: auto;
+  border-radius: 4px;
+  width  : 470px;
+  padding-bottom : 10px;
+  height: 330px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background: url("img3.jpg");
+}
+
+.lbimg4{
+  margin-left : auto;
+  margin-right: auto;
+  border-radius: 4px;
+  width  : 470px;
+  padding-bottom : 10px;
+  height: 330px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background: url("img4.jpg");
+}
+
+
+.lbimg8{
+  margin-left : auto;
+  margin-right: auto;
+  border-radius: 4px;
+  width  : 470px;
+  padding-bottom : 10px;
+  height: 330px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background: url("img8.jpg");
+}
+
+.container3-2{
+  margin-top: 70px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.timg1{
+  border-radius: 50%;
+  width : 330px;
+  height: 330px;
+  margin-bottom: 40px;
+  background: url("testimonial.jpg");
+}
+
+.timg1{
+  border-radius: 50%;
+  width : 330px;
+  height: 330px;
+  margin-bottom: 40px;
+  background: url("team1.jpg");
+}
+.timg2{
+  border-radius: 50%;
+  width : 330px;
+  height: 330px;
+  margin-bottom: 40px;
+  background: url("team2.jpg")
+}
+
+.timg3{
+  border-radius: 50%;
+  width : 330px;
+  height: 330px;
+  margin-bottom: 40px;
+  background: url("team3.jpg")
+}
+
+.row321{
+  padding-right: 80px; /*Adding Padding to from the right*/
+  justify-content: center;
+}
+
+.block321, .block322, .block323{
+
+  padding: .5em; /*Adding padding on all the size*/
+  border-radius: 7px; /*Convert the edges of box to circular*/
+  margin-top: 1%; /*Adds margin to the top*/
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+}
+
+.pagetitle{
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  font-size: 50px ;
+  font-family: Courier;
+  font-color : black;
+  font-weight: bold;
+}
+
+.blockcontent{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+.row31{
+  margin-left: 6%;
+  display: table; /*Represents the type of row, as it need to contain three block, it is set as table*/
+  padding-right: 40px; /*Adding Padding to from the right*/
+  width: 100%; /*Width of the screen to by this tag*/
+  height: 300px; /*Height of the content*/
+  position: relative; /*Position of the tag*/
+  padding-bottom: 100px;
+}
+
+.price{
+  font-size: 50px;
+  text-align: center;
+}
+
+.blockcontent1{
+  font-size: 10px;
+  text-align: center;
+}
+
+.head{
+  text-align: center;
+}
+
+.block331, .block332, .block333, .block334{
+  display: table-cell; /*Represents the type of row, as it need to contain three block, it is set as table-row*/
+  padding-top: 40px;
+  margin-right: 3%; /*Adding margin to the right*/
+  float: left; /*It set the content to float or sticks to the left*/
+  width:20%; /*Set the content to be displayed in the specified width*/
+  height: 95%; /*Sets the height of content*/
+  border-radius: 7px; /*Convert the edges of box to circular*/
+  margin-top: 1%; /*Adds margin to the top*/
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: darkgrey;
+}
+
+#b6{
+  width : 100%;
+  background-color: grey;
+  border-color: grey;
+
+}
+
+
+.blockcontent2{
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.container3-1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+
+}
+
+.block3-1, .block3-2{
+  display: table-cell; /*Represents the type of row, as it need to contain three block, it is set as table-row*/
+  padding: .5em; /*Adding padding on all the size*/
+  margin-right: 3%; /*Adding margin to the right*/
+  float: left; /*It set the content to float or sticks to the left*/
+  width:40%; /*Set the content to be displayed in the specified width*/
+  border-radius: 7px; /*Convert the edges of box to circular*/
+  margin-top: 1%; /*Adds margin to the top*/
+  margin-left: 50px;
+}
+
+.aboutcompanyimg{
+  height: 700px;
+}
+
+.cblock{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.cblocktext{
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.cblockdata{
+  display: grid;
+}
+
+.cblocksubtext{
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+#b7{
+  background-color: darkgrey;
+  border-radius: 30px;
+}
+.cbutton{
+  color: white;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.image{
+  background-image: url(mainimage2.jpg);
+  opacity:0.8;
+  background-color: #cccccc;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text{
+  padding-top: 20%;
+  text-align:left;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: black;
+  padding-bottom: 50px;
+  margin-bottom: 2%;
+
+}
+
+.box2{
+  color: black;
+  border:hidden;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: darkgrey;
+  border: 1px solid rgb(199, 195, 195);
+  border-radius: 30px;
+}

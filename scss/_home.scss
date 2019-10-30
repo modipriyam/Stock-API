@@ -1,0 +1,114 @@
+@import "variables";
+body {
+    background-color: rgba($brand-color, 0.1);
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.navigation{
+    border-bottom:1px solid rgb(199,195,195);
+    position : sticky;
+    top:0;
+    width:100%;
+    z-index: 100;
+    background: whitesmoke;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.posts{
+    float:left;
+    color:black;
+    padding-bottom:1px;
+    font-size:25px;
+    border-bottom:1px solid black;
+    text-decoration: none;
+}
+
+.blog{
+    margin: 0% 1% 1% 1%; /*Adding Margin to the main block, it will add margin of 0,5,5,10 percent to top, left, bottom and right respectively*/
+}
+
+p{
+    color: $brand-color; /*Add color to content of the paragraph tag*/
+}
+
+hr{
+    display: block;
+    height: 2px;
+    border-top: 2px solid $brand-color; /*Adds the border to the top and set the color of the line*/
+}
+
+.line1{
+    display: table; /*Represents the type of row, as it need to contain three block, it is set as table*/
+    padding-right: 10%; /*Adding Padding to from the right*/
+    padding-left: 10%;
+    width: 100%; /*Width of the screen to by this tag*/
+    position: relative; /*Position of the tag*/
+}
+
+.line1-1{
+    display: table-cell; /*Represents the type of row, as it need to contain three block, it is set as table-row*/
+    float: left; /*It set the content to float or sticks to the left*/
+    width:28%; /*Set the content to be displayed in the specified width*/
+    margin-top: 1%; /*Adds margin to the top*/
+    font-size: 12px;
+}
+
+.line1-2{
+    display: table-cell; /*Represents the type of row, as it need to contain three block, it is set as table-row*/
+    float: right; /*It set the content to float or sticks to the left*/
+    width:28%; /*Set the content to be displayed in the specified width*/
+    margin-top: 1%; /*Adds margin to the top*/
+    font-size:12px ;
+}
+
+.line2{
+    display: grid;
+    padding-right: 12%; /*Adding Padding to from the right*/
+    padding-left: 10%;
+    width: 100%; /*Width of the screen to by this tag*/
+    position: relative; /*Position of the tag*/
+    float: right;
+    margin-bottom:2%;
+
+}
+
+.line2-1{
+    grid-row: 1;
+    grid-column: 1;
+    width:20%; /*Set the content to be displayed in the specified width*/
+    font-size: 15px;
+}
+
+.line2-2{
+    grid-row: 1;
+    grid-column: 2;
+    padding: .10em; /*Adding padding on all the size*/
+    font-size:10px ;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+#b1{
+    grid-row: 1;
+    grid-column: 3;
+    font-size:8px ;
+    border-radius: 20px;
+    float: right;
+
+}
+.logo{
+    font-family : Georgia;
+    font-weight: 900 ;
+    padding-top: 5px;
+    color: darkgrey;
+}
+
+.box{
+    position: relative;
+    display: inline-block;
+    background: url("mainimage2.jpg");
+}
