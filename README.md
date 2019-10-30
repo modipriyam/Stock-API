@@ -1,18 +1,11 @@
-##Name : assignment-4-modipriyam
-assignment-3-modipriyam created by GitHub Classroom
+##Name : assignment-7-modipriyam
+assignment-7-modipriyam created by GitHub Classroom
 
 ##Desciption : 
-The assignment is about creating the a page using HTML and SCSS. It contains multiple pages. The page is kind of blog post which contains website of cleaners. 
-It has the details for CleanNow cleanners website. 
-The Home page has its details. 
-It cointains About us page which contains the discription of the cleaners.
-Service page cointains the services provided for CleanNow.
+The assignment is about creating the a page using HTML where user can
+get the details for the Stocks. On the Starting of the Page there is textbox which takes
+the User input as in Stock Name. After Clicking on the Submit button it will display the Stock Details for those stocks.
 Contact page contains information related to the CleanNow
-
-##fa-fa icons usage
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-It will use the reference from the given href and create styling according to it.
-
 
 # scss-webpack-template
 
@@ -35,5 +28,3 @@ Follow below steps to lauch the app using `webpack-dev-server`.
 
 ## License
 [MIT License](https://opensource.org/licenses/MIT)
-
-
