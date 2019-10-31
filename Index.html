@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html>
+  <head>
+    <title>Stock Data</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@reactivex/rxjs@5.3.0/dist/global/Rx.js"></script>
+  </head>
 
-</body>
+  <body>
+
+    <!-- Linked to the main javascript file-->
+    <div class="container">
+        <h2>Stock Exchange</h2>
+        <br>
+        <h6>Enter the Stock Symbol Separated with Comma.</h6>
+      <div class = "row">
+        <div class="col-sm-8">
+          <div class="form-group">
+            <input type="text" class="stockSymbols form-control" id="stockSymbolsInput" name="stockSymbolsInput"/>
+          </div>
+        </div>
+        <div class = "col-sm-4">
+          <input class="submitBtn btn btn-info btn-block" type="submit" value="Submit" />
+        </div>
+      </div>
+      <br>
+      <hr>
+    </div>
+    <script src="main.js"></script>
+  </body>
 </html>
