@@ -120,3 +120,4 @@ fabric.properties
 
 # Sonarlint plugin
 .idea/sonarlint
+node_modules
